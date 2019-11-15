@@ -47,7 +47,7 @@ public class Panel_Tam extends JPanel {
 		boton_validar = new JButton("Validar");
 		boton_validar.setBounds(290, 40, 190, 20);
 		boton_validar.setForeground(Color.black);
-		boton_validar.setBackground(Color.ORANGE);
+		boton_validar.setBackground(Color.orange);
 		add(boton_validar);
 		
 	}

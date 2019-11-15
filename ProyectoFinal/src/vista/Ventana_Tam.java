@@ -12,6 +12,7 @@ public class Ventana_Tam extends JFrame {
 		getContentPane().setLayout(null);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setSize(600, 450);
+		setTitle("Determinar Tamaño del Tablero");
 		setResizable(false);
 		inicializarComponentes();
 		
