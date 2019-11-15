@@ -2,6 +2,10 @@ package control;
 
 public class Lanzador {
 
-	Control control = new Control();
-	
+	public static void main(String[] args) {
+		
+		Control control = new Control();
+
+	}
+
 }
