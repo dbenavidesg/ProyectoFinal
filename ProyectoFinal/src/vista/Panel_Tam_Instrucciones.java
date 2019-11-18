@@ -1,6 +1,7 @@
 package vista;
 
 import java.awt.Color;
+import java.awt.Font;
 
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
@@ -23,6 +24,7 @@ public class Panel_Tam_Instrucciones extends JPanel {
 
 		TitledBorder border = new TitledBorder("Instrucciones");
 		border.setTitleColor(Color.PINK);
+		border.setTitleFont(new Font("Bernard MT Condensed", Font.TRUETYPE_FONT, 16));
 		setBorder(border);
 
 		setVisible(true);
@@ -81,6 +83,7 @@ public class Panel_Tam_Instrucciones extends JPanel {
 				
 
 		area_instrucciones.setBounds(5, 30, 495, 215);
+		area_instrucciones.setFont(new Font("Bernard MT Condensed", Font.TRUETYPE_FONT, 14));
 		add(area_instrucciones);
 		
 	}

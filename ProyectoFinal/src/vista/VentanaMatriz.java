@@ -33,17 +33,17 @@ public class VentanaMatriz extends JFrame{
 	public void inicializarComponentes() {
 		
 		pnl_matriz = new Panel_Matriz();
-		//pnl_matriz.setBounds(x, y, width, height);
-		getContentPane().add(pnl_matriz);
+		pnl_matriz.setBounds(25, 25, 650, 700);
+		add(pnl_matriz);
 		
-		String [] columnas = {""};
+//		String [] columnas = {""};
 		
-		JTable table = new JTable(tablero, columnas);
-		DefaultTableCellRenderer Alinear = new DefaultTableCellRenderer();
-		Alinear.setHorizontalAlignment(SwingConstants.CENTER);
-		table.getColumnModel().getColumn(0).setCellRenderer(Alinear);
-		JScrollPane scroll = new JScrollPane(table);
-		getContentPane().add(scroll);
+//		JTable table = new JTable(tablero, columnas);
+//		DefaultTableCellRenderer Alinear = new DefaultTableCellRenderer();
+//		Alinear.setHorizontalAlignment(SwingConstants.CENTER);
+//		table.getColumnModel().getColumn(0).setCellRenderer(Alinear);
+//		JScrollPane scroll = new JScrollPane(table);
+//		getContentPane().add(scroll);
 		
 	}
 }

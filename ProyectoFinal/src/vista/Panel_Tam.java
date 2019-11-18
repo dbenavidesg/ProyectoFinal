@@ -1,6 +1,7 @@
 package vista;
 
 import java.awt.Color;
+import java.awt.Font;
 
 import javax.swing.JButton;
 import javax.swing.JLabel;
@@ -29,11 +30,13 @@ public class Panel_Tam extends JPanel {
 		etiqueta_filas = new JLabel("Filas");
 		etiqueta_filas.setBounds(50, 5, 85, 15);
 		etiqueta_filas.setForeground(Color.pink);
+		etiqueta_filas.setFont(new Font("Bernard MT Condensed", Font.TRUETYPE_FONT, 16));
 		add(etiqueta_filas);
 		
 		etiqueta_columnas = new JLabel("Columnas");
-		etiqueta_columnas.setBounds(50, 55, 85, 15);
+		etiqueta_columnas.setBounds(50, 60, 85, 15);
 		etiqueta_columnas.setForeground(Color.pink);
+		etiqueta_columnas.setFont(new Font("Bernard MT Condensed", Font.TRUETYPE_FONT, 16));
 		add(etiqueta_columnas);
 		
 		campo_texto_filas = new JTextField();
@@ -44,10 +47,11 @@ public class Panel_Tam extends JPanel {
 		campo_texto_columnas.setBounds(50, 75, 175, 20);
 		add(campo_texto_columnas);
 		
-		boton_validar = new JButton("Validar");
+		boton_validar = new JButton("Crear");
 		boton_validar.setBounds(290, 40, 190, 20);
 		boton_validar.setForeground(Color.black);
 		boton_validar.setBackground(Color.orange);
+		boton_validar.setFont(new Font("Bernard MT Condensed", Font.TRUETYPE_FONT, 16));
 		add(boton_validar);
 		
 	}
